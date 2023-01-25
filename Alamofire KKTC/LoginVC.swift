@@ -100,7 +100,7 @@ class LoginVC: UIViewController {
     
     private func navigateToHome(){
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let secondVC = storyboard.instantiateViewController(identifier: "home") as ViewController
+        let secondVC = storyboard.instantiateViewController(identifier: "home") as HomeVC
         secondVC.modalPresentationStyle = .fullScreen
         secondVC.modalTransitionStyle = .crossDissolve
         show(secondVC, sender: self)

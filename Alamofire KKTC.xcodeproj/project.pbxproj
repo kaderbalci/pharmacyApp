@@ -11,7 +11,7 @@
 		4C1C1DFE295F1EAA00EA408A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C1DFD295F1EAA00EA408A /* Constant.swift */; };
 		4C60759A295EF11A008FB939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C607599295EF11A008FB939 /* AppDelegate.swift */; };
 		4C60759C295EF11A008FB939 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C60759B295EF11A008FB939 /* SceneDelegate.swift */; };
-		4C60759E295EF11A008FB939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C60759D295EF11A008FB939 /* ViewController.swift */; };
+		4C60759E295EF11A008FB939 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C60759D295EF11A008FB939 /* HomeVC.swift */; };
 		4C6075A1295EF11A008FB939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C60759F295EF11A008FB939 /* Main.storyboard */; };
 		4C6075A3295EF11C008FB939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6075A2295EF11C008FB939 /* Assets.xcassets */; };
 		4C6075A6295EF11C008FB939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6075A4295EF11C008FB939 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,8 @@
 		4C7611DC29705312001D04EA /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7611DB29705312001D04EA /* Register.swift */; };
 		4C7611EB297097AD001D04EA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7611EA297097AD001D04EA /* LoginVC.swift */; };
 		4C8F2F1C296DF83D00BD97A0 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F2F1B296DF83D00BD97A0 /* SplashVC.swift */; };
-		4C9759802960F0F5001C7811 /* DutyPharmacyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97597F2960F0F5001C7811 /* DutyPharmacyResponse.swift */; };
+		4C9759802960F0F5001C7811 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97597F2960F0F5001C7811 /* DataResponse.swift */; };
+		4C98BDF42981AD45006BA813 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98BDF32981AD45006BA813 /* HomeViewModel.swift */; };
 		FC044FFB0CA5CA0A93D8BB83 /* Pods_Alamofire_KKTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7765903F09A302DA6AF5DE /* Pods_Alamofire_KKTC.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +30,7 @@
 		4C607596295EF11A008FB939 /* Alamofire KKTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire KKTC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C607599295EF11A008FB939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C60759B295EF11A008FB939 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C60759D295EF11A008FB939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C60759D295EF11A008FB939 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		4C6075A0295EF11A008FB939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C6075A2295EF11C008FB939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C6075A5295EF11C008FB939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,7 +39,8 @@
 		4C7611DB29705312001D04EA /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		4C7611EA297097AD001D04EA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4C8F2F1B296DF83D00BD97A0 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
-		4C97597F2960F0F5001C7811 /* DutyPharmacyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyPharmacyResponse.swift; sourceTree = "<group>"; };
+		4C97597F2960F0F5001C7811 /* DataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
+		4C98BDF32981AD45006BA813 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		6689671CCBC7D00F39122198 /* Pods-Alamofire KKTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire KKTC.release.xcconfig"; path = "Target Support Files/Pods-Alamofire KKTC/Pods-Alamofire KKTC.release.xcconfig"; sourceTree = "<group>"; };
 		66D02D0D2A70ED2135181833 /* Pods-Alamofire KKTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire KKTC.debug.xcconfig"; path = "Target Support Files/Pods-Alamofire KKTC/Pods-Alamofire KKTC.debug.xcconfig"; sourceTree = "<group>"; };
 		DA7765903F09A302DA6AF5DE /* Pods_Alamofire_KKTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_KKTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,11 +66,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4C497073297ADAF4005C6242 /* vc */ = {
+		4C497073297ADAF4005C6242 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				4C60759D295EF11A008FB939 /* HomeVC.swift */,
+				4C98BDF32981AD45006BA813 /* HomeViewModel.swift */,
 			);
-			path = vc;
+			path = home;
 			sourceTree = "<group>";
 		};
 		4C60758D295EF11A008FB939 = {
@@ -92,12 +96,11 @@
 		4C607598295EF11A008FB939 /* Alamofire KKTC */ = {
 			isa = PBXGroup;
 			children = (
-				4C497073297ADAF4005C6242 /* vc */,
+				4C98BDF22981AD01006BA813 /* model */,
+				4C497073297ADAF4005C6242 /* home */,
 				4C607599295EF11A008FB939 /* AppDelegate.swift */,
 				4C7353FD2976B5DF00508E00 /* TestModel.xcdatamodeld */,
 				4C60759B295EF11A008FB939 /* SceneDelegate.swift */,
-				4C60759D295EF11A008FB939 /* ViewController.swift */,
-				4C97597F2960F0F5001C7811 /* DutyPharmacyResponse.swift */,
 				4C1C1DFD295F1EAA00EA408A /* Constant.swift */,
 				4C60759F295EF11A008FB939 /* Main.storyboard */,
 				4C7611EA297097AD001D04EA /* LoginVC.swift */,
@@ -109,6 +112,14 @@
 				4C8F2F1B296DF83D00BD97A0 /* SplashVC.swift */,
 			);
 			path = "Alamofire KKTC";
+			sourceTree = "<group>";
+		};
+		4C98BDF22981AD01006BA813 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4C97597F2960F0F5001C7811 /* DataResponse.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		D6E155AEDF493797932AA4FA /* Pods */ = {
@@ -235,13 +246,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C7611EB297097AD001D04EA /* LoginVC.swift in Sources */,
+				4C98BDF42981AD45006BA813 /* HomeViewModel.swift in Sources */,
 				4C7353FF2976B5DF00508E00 /* TestModel.xcdatamodeld in Sources */,
 				4C1C1DFB295F075900EA408A /* DutyPTableViewCell.swift in Sources */,
 				4C7611DC29705312001D04EA /* Register.swift in Sources */,
-				4C60759E295EF11A008FB939 /* ViewController.swift in Sources */,
+				4C60759E295EF11A008FB939 /* HomeVC.swift in Sources */,
 				4C1C1DFE295F1EAA00EA408A /* Constant.swift in Sources */,
 				4C60759A295EF11A008FB939 /* AppDelegate.swift in Sources */,
-				4C9759802960F0F5001C7811 /* DutyPharmacyResponse.swift in Sources */,
+				4C9759802960F0F5001C7811 /* DataResponse.swift in Sources */,
 				4C60759C295EF11A008FB939 /* SceneDelegate.swift in Sources */,
 				4C8F2F1C296DF83D00BD97A0 /* SplashVC.swift in Sources */,
 			);
